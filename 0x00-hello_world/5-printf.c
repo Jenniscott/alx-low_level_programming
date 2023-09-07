@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - prints the characters in the printf function 
- * return: 0
+ * main - Entry point 
+ * Description: prints the characters inthe function printf 
+ * return: Always 0 (Sucess) 
  */
 int main(void)
 {
