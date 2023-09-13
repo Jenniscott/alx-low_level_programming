@@ -11,7 +11,7 @@ void print_alphabet(void)
 	while (n <= 'z')
 	{
 
-		putchar(c);
+		putchar(n);
 		c++;
 	}
 		putchar("\n");
