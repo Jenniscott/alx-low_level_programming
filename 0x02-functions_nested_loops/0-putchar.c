@@ -1,12 +1,12 @@
-#include <stdio.h> 
+#include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Result: Always 0
  */
 
-int main(){
-
+int main()
+{
 	printf("_putchar\n");
 	return (0);
 }
