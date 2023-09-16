@@ -6,9 +6,8 @@
  * @b: The second number to multiply with first number 
  * Return: a and b 
  */
-
 int mul(int a, int b)
 {
-	return (x * y);
+	return (a * b);
 
 }
