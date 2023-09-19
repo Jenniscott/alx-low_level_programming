@@ -1,14 +1,23 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * puts_half - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
-int main(char *str;)
+void puts_half(char *str)
 {
+	int i;
+	int index;
+	int n;
 
-	str = "0123456789";
-	puts_half(str);
-
-	return (0);
+	for (i = 0; str[i] != 0; i++)
+	{
+	}
+	index = i - 1;
+	n = (index / 2) + 1;
+	for (; n <= index; n++)
+	{
+		_putchar(str[n]);
+	}
+	_putchar('\n');
 }
