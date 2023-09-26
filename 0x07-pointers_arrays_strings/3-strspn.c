@@ -5,7 +5,7 @@
  * @accept: letters to accept and count
  * Return: Always
  */
-nsigned int _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int z = 0, x, y;
 
