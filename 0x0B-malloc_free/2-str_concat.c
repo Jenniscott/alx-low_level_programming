@@ -8,8 +8,8 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *space;
-	unsigned int i, m, n, limit;
+	char *strout;
+	unsigned int i, j, k, limit;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -17,18 +17,18 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	for (i = 0; s1[i] != '\0'; i++)
 		;
-	for (m = 0; s2[m] != '\0'; m++)
+	for (j = 0; s2[j] != '\0'; j++)
 		;
-	space  = malloc(sizeof(char) * (i + m + 1));
-	if (space  == NULL)
+	strout = malloc(sizeof(char) * (i + j + 1));
+	if (strout == NULL)
 	{
-		free(space);
+		free(strout);
 		return (NULL);
 	}
-	for (n= 0; n < i; n++)
-		space[n] = s1[n];
-	limit = m;
-	for (m = 0; m <= limit; n++, m++)
-		space[m] = s2[n];
-	return (space);
+	for (k = 0; k < i; k++)
+		strout[k] = s1[k];
+	limit = j;
+	for (j = 0; j <= limit; k++, j++)
+		strout[k] = s2[j];
+	return (strout);
 }
