@@ -1,0 +1,13 @@
+#include "variadic_functions.h"
+
+/**
+ * sum_them_all - function that calculates the sum 
+ * @n: number of arg in the function 
+ *
+ * Return: The sum 
+ */
+
+int sum_them_all(const unsigned int n, ...)
+{
+	unsigned int i;
+	int sum
