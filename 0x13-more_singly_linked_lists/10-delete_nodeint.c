@@ -13,10 +13,10 @@ listint_t *temp = *head;
 listint_t *current = NULL;
 unsigned int i = 0;
 
-	if (*head == NULL)
+if (*head == NULL)
 	return (-1);
 
-	if (index == 0)
+if (index == 0)
 {
 *head = (*head)->next;
 free(temp);
